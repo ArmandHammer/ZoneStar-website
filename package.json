@@ -1,16 +1,12 @@
 {
-  "name": "application-name",
+  "name": “ZoneStar,
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "4.8.3",
-    "mongodb": "1.4.8",
-    "mongoose": "3.8.14",
-    "validator": "3.17.0",
-    "aws-sdk": "2.0.11"
+    "express": "4.8.3"
   },
   "engines": {
     "node": "0.10.21",
