@@ -1,15 +1,23 @@
 {
-  "name": “ZoneStar,
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
+  "name": "ZoneStar-website",
+  "version": "1.0.0",
+  "description": "ZoneStar:",
+  "main": "app.js",
   "dependencies": {
-    "express": "4.8.3"
+    "express": "^4.8.3"
   },
-  "engines": {
-    "node": "0.10.21",
-    "npm": "1.4.23"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArmandHammer/ZoneStar-website.git"
+  },
+  "author": "Armand Obreja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArmandHammer/ZoneStar-website/issues"
+  },
+  "homepage": "https://github.com/ArmandHammer/ZoneStar-website"
 }

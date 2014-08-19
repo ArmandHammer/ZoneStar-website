@@ -1,1 +1,1 @@
-web: node placeholder.js
+web: node app.js
