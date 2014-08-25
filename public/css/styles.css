@@ -70,7 +70,7 @@ a.list-group-item.active,[class*='-info'] {
   
 #section3 {
 	background-color: #d19c30;
-    color:#ddd;
+    color:#fff;
 }
 
 #section4 {
@@ -80,7 +80,7 @@ a.list-group-item.active,[class*='-info'] {
 
 #section6 {
 	background-color: #d19c30;
-    color:#ddd;
+    color:#fff;
 }
 
 #section7 {
@@ -94,7 +94,7 @@ a.list-group-item.active,[class*='-info'] {
 
 footer {
 	background-color:#494949;
-    color:#ddd;
+    color:#fff;
     min-height:100px;
     padding-top:20px;
     padding-bottom:40px;
@@ -102,7 +102,7 @@ footer {
 
 footer .nav>li>a {
     padding:3px;
-    color:#ccc;
+    color:#fff;
 }
 
 footer .nav>li>a:hover {
