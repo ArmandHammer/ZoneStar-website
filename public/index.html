@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>ZoneStar</title>
+		<title>Section scroller template</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">r
+		
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body>
-<div class="navbar-wrapper">
-  <div class="container">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      
-        <div class="navbar-header">
-	    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	      <span class="icon-bar"></span>
-	      <span class="icon-bar"></span>
-	      <span class="icon-bar"></span>
-	    </a>
-        <a class="navbar-brand" href="index.html">ZoneStar</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-			<li><a href="features.html">Features</a></li>
-            <li><a href="marketing.html">Marketing Team</a></li>
-          </ul>
-        </div>
-
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ZoneStar</a>
     </div>
-  </div><!-- /container -->
-</div><!-- /navbar wrapper -->
+    <div class="navbar-collapse collapse" id="navbar-collapsible">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#section1">Intro</a></li>
+        <li><a href="#section2">Basics</a></li>
+        <li><a href="#section3">New Post</a></li>
+        <li><a href="#section4">Zone</a></li>
+        <li><a href="#section6">Zone Radius</a></li>
+        <li><a href="#section7">Flag/Delete</a></li>
+        <li>&nbsp;</li>
+      </ul>
 
-<div class="container">
-  <div class="featurette">
-	<img class="img-square" img style="float:left" src="img/iPhone.png">
-	<h2 style="padding-top: 130px;"></h2>
-	<div class="well">
-			<p class="lead">Have you ever been to a new city and wanted to find something fun to do? Have you ever wondered what the lineups and drink specials are like at nearby nightlife spots? ZoneStar is the first real-time party app to help satisfy your social cravings.  And the best part?  No signup required!
-<br><br> You can use ZoneStar to:
-			 <li>Find out the club and bar lineups near you</li>
-			 <li>Explore the hottest, most glamorous parties, events and concerts in your zone</li>
-			 <li>Discover where the ladies nights, cheap drinks and popular after parties are at</li>
-			</p>
-	</div>
+      </form>
+    </div>
   </div>
+</nav>
 
-</div><!-- /.container -->
-
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
-<div class="container marketing">
-	<hr class="featurette-divider">
+<section class="container-fluid" id="section1">
+	<div class="container marketing">
 	
-  <!-- Three columns of text below the carousel -->
+		<img class="img-square" img style="float:left" src="img/iPhone.png">
+		<h2 style="padding-top: 130px;"></h2>
+				<p class="lead">Have you ever been to a new city and wanted to find something fun to do? Have you ever wondered what the lineups and drink specials are like at nearby nightlife spots? ZoneStar is the first real-time party app to help satisfy your social cravings.  And the best part?  No signup required!
+	<br><br> You can use ZoneStar to:
+				 <li>Find out the club and bar lineups near you</li>
+				 <li>Explore the hottest, most glamorous parties, events and concerts in your zone</li>
+				 <li>Discover where the ladies nights, cheap drinks and popular after parties are at</li>
+				</p>
+				</div>
+</section>
+
+<section class="container-fluid" id="section2">
+	<div class="container marketing">
+  	<h1 class="text-center v-center">The Basics</h1>
+	<h2 style="padding-top: 40px;"></h2>
   <div class="row">
     <div class="col-md-4 text-center">
       <img class="img-square" src="img/distance.png">
@@ -71,24 +74,76 @@
     <div class="col-md-4 text-center">
       <img class="img-square" src="img/socialNetwork.png">
       <h2>Social Platform</h2>
-      <p>Mingle with neighbours, community, and campus students.  Get out there and find something exciting to do!</p>
+      <p>Mingle with the people around you who are also looking for something fun to do.</p>
     </div>
+</div>
   </div><!-- /.row -->
+</section>
 
-  <!-- /END THE FEATURETTES -->
+<section class="container-fluid" id="section3">
+	<h1 class="text-center">New Post</h1>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p class="text-center lead">Leave a message anonymously or with a signature of your choice.</p>
+        <div class="row">
+          <div class="col-xs-6">Talk about the hottest parties and nightlife spots, ask a question about your area, promote a public event or engage other users.</div>
+          <div class="col-xs-6 text-right">Be as clever and witty as you want to be.  Your message stays on that geolocation forever!</div>
+        </div>
+        <p class="text-center">
+          <img src="img/newMessage.png" class="img-responsive center-block ">
+        </p>
+      </div>
+   </div>
+</section>
 
-<hr class="featurette-divider">
+<section class="container-fluid" id="section4">
+	<div class="container marketing">
+	<div class="featurette">
+	  <img class="featurette-image img-square pull-left" src="img/map.png">
+	<br><br><br><br><br><br><br>
+	  <h1 class="featurette-heading">Zone</h1>
+	  <p class="lead">The Zone button shows you the exact location and address of the post.  Gain a better understanding of a message by seeing where it was specifically dropped!</p>
+	</div>
+	</div>
+</section>
 
-  <!-- FOOTER -->
-  <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>Copyright © 2014 Armand Obreja and Eric Webster. All rights reserved.</p>
-	
-  </footer>
+<section class="container-fluid" id="section6">
+	<div class="container marketing">
+	<div class="featurette">
+	  <img class="featurette-image img-square pull-right" src="img/zoneRadius.png">
+	<br><br><br><br><br><br><br>
+	  <h1 class="featurette-heading">Zone Radius</h1>
+	  <p class="lead">Picking up irrelevant messages?  ZoneStar gives users the flexibility in deciding how far the posts will be coming from.  With the "Zone" always relevant to their current location, users can use a slider to decrease the "Zone Radius" to as close as 100 meters and pick up what people are doing around their immediate location!</p>
+	</div>
+	</div>
+</section>
 
-</div><!-- /.container -->
+<section class="container-fluid" id="section7">
+	<h1 class="text-center">Flag/Delete System</h1>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p class="text-center lead">Take a stand against offensive messages.</p>
+        <div class="row">
+          <div class="col-xs-6">Report spam or distasteful posts by double tapping on the post, and help  keep the maturity level of this social platform high. </div>
+          <div class="col-xs-6 text-right">Similarly, if a post you dropped is no longer relevant and you want to delete it, double tap on it from your "Portfolio" tab.</div>
+        </div>
+        <p class="text-center">
+          <img src="img/newMessage.png" class="img-responsive center-block ">
+        </p>
+      </div>
+   </div>
+</section>
+
+<footer id="footer">
+	<div class="container marketing"><br>
+  <p class="pull-right"><a href="#">Back to top</a></p>
+  <p>Copyright © 2014 Armand Obreja and Eric Webster. All rights reserved.</p>
+</div>
+</footer>
+
 	<!-- script references -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
 	</body>
 </html>
