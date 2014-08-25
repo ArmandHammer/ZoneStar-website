@@ -11,7 +11,7 @@ author: bootply.com
 
 html,body {
 	height:100%;
-    background:center no-repeat fixed url('/assets/example/bg_suburb.jpg');
+    background:center no-repeat fixed url('../img/blurred.jpg');
     background-size: cover;
 }
 
@@ -46,7 +46,7 @@ section {
 }
 
 .v-center {
-    padding-top:10%;
+    padding-top:5%;
     font-size:70px;
 }
   
@@ -61,12 +61,11 @@ a.list-group-item.active,[class*='-info'] {
   
 #section1 {
 	background-color: #d19c30;
-    color:#dfffff;
+    color:#fff;
 }
   
 #section2 {
-	background-color: #e5e5ef;
-    color:#686868;
+    color:#fff;
 }
   
 #section3 {
@@ -75,18 +74,22 @@ a.list-group-item.active,[class*='-info'] {
 }
 
 #section4 {
-	background-color: #fff;
-    color:#444;
-}
-
-#section7 {
-    background-color: #fff;
+	background-color: #E8E8E8;
     color:#444;
 }
 
 #section6 {
 	background-color: #d19c30;
     color:#ddd;
+}
+
+#section7 {
+    background-color: #E8E8E8;
+    color:#444;
+}
+
+#section8 {
+	color:#fff;
 }
 
 footer {
