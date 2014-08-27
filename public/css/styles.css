@@ -97,9 +97,9 @@ a.list-group-item.active,[class*='-info'] {
 footer {
 	background-color:#494949;
     color:#fff;
-    min-height:100px;
+    min-height:80px;
     padding-top:20px;
-    padding-bottom:40px;
+    padding-bottom:10px;
 }
 
 footer .nav>li>a {
