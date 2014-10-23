@@ -98,17 +98,6 @@ figure {
   font-style: normal;
 }
 
-@font-face {
-    font-family: 'socicons';
-    src: url('../font/socicons-webfont.eot');
-    src: url('../font/socicons-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/socicons-webfont.woff') format('woff'),
-         url('../font/socicons-webfont.ttf') format('truetype'),
-         url('../font/socicons-webfont.svg#sociconregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Socialico, Social Media Icons
 -------------------------------------------------- */
 
