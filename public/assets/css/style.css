@@ -225,7 +225,6 @@ li[class^="socicon"].large:before, li[class*=" socicon"].large:before {
 .aolcircle.socicon:before{content:"\007A"}
 
 /* socIcons */
-
 .socicons
     font-family: 'socicons' !important;
 }
@@ -728,7 +727,7 @@ html[xmlns] .slides {display: block;}
 
 .social [class^="socicon"]:before, 
 .social [class*=" socicon"]:before {	
-	font-size: 55px;
+	font-size: 45px;
 }
 
 .social li [class^="socicon"], 
