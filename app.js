@@ -9,3 +9,16 @@ app.listen(port, function(){
 	userCount++;
 	console.log("listening on port " + port);
 });
+
+var mail = require("nodemailer").mail;
+exports.contact = function(req, res){
+  var body = req.body;
+  mail({
+      from: body.firstName + ' ' + body.lastName + ' <' + body.email + '>', // sender address
+      to: 'alex.1990.01@gmail.com', // list of receivers
+      subject: 'ZoneStar', // Subject line
+      text: body.message, // plaintext body
+      html: '<div>' + body.message + '</div>' // html body
+  });
+  res.send({success: true});
+}
